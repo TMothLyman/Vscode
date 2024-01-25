@@ -1,0 +1,5 @@
+txtfile = open("textfile.txt", "a")
+txtfile.write("Hello good sir\n")
+leave = input("Write something here blud")
+txtfile.write(leave)
+txtfile.close()
